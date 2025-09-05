@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: url("görsel/fazlaca minimal sade.png");
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #2c2c2c;
+  padding: 20px;
+}
+
+.text {
+  margin-bottom: 10px;
+}
+
+#yazi {
+  height: 40px;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+}
+
+.num {
+  flex: 3;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2px;
+}
+
+.process {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2px;
+}
+
+.buton {
+  aspect-ratio: 1 / 1;
+  width: 100%;
+  font-size: 1.2rem;
+  border-radius: 6px;
+}
+.error {
+  background-color: #ffdddd;
+  border: 1px solid red;
+}
